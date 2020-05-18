@@ -13,6 +13,8 @@
 		DA951CBA2472F05E001E27B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA951CB82472F05E001E27B3 /* Main.storyboard */; };
 		DA951CBC2472F05F001E27B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA951CBB2472F05F001E27B3 /* Assets.xcassets */; };
 		DA951CBF2472F05F001E27B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA951CBD2472F05F001E27B3 /* LaunchScreen.storyboard */; };
+		DA951CC72472F224001E27B3 /* catList.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA951CC62472F224001E27B3 /* catList.swift */; };
+		DA951CC9247324B8001E27B3 /* fixedCatList.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA951CC8247324B8001E27B3 /* fixedCatList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		DA951CBB2472F05F001E27B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DA951CBE2472F05F001E27B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DA951CC02472F05F001E27B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA951CC62472F224001E27B3 /* catList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = catList.swift; sourceTree = "<group>"; };
+		DA951CC8247324B8001E27B3 /* fixedCatList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fixedCatList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				DA951CB22472F05E001E27B3 /* AppDelegate.swift */,
 				DA951CB42472F05E001E27B3 /* SceneDelegate.swift */,
 				DA951CB62472F05E001E27B3 /* ViewController.swift */,
+				DA951CC62472F224001E27B3 /* catList.swift */,
+				DA951CC8247324B8001E27B3 /* fixedCatList.swift */,
 				DA951CB82472F05E001E27B3 /* Main.storyboard */,
 				DA951CBB2472F05F001E27B3 /* Assets.xcassets */,
 				DA951CBD2472F05F001E27B3 /* LaunchScreen.storyboard */,
@@ -138,6 +144,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA951CC72472F224001E27B3 /* catList.swift in Sources */,
+				DA951CC9247324B8001E27B3 /* fixedCatList.swift in Sources */,
 				DA951CB72472F05E001E27B3 /* ViewController.swift in Sources */,
 				DA951CB32472F05E001E27B3 /* AppDelegate.swift in Sources */,
 				DA951CB52472F05E001E27B3 /* SceneDelegate.swift in Sources */,
